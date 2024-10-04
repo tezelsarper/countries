@@ -1,4 +1,4 @@
-package com.example.kotlincountries.model
+package com.sarpertezel.kotlincountries.model
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

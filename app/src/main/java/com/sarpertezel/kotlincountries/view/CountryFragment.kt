@@ -1,4 +1,4 @@
-package com.example.kotlincountries.view
+package com.sarpertezel.kotlincountries.view
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,14 +8,9 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import com.example.kotlincountries.model.Country
-import com.example.kotlincountries.util.downloadFromUrl
-import com.example.kotlincountries.util.placeholderProgressBar
-import com.example.kotlincountries.view.CountryFragmentArgs
-import com.example.kotlincountries.viewmodel.CountryViewModel
-import com.example.kotlincountrylist.R
-import com.example.kotlincountrylist.databinding.FragmentCountryBinding
-import com.example.kotlincountrylist.databinding.FragmentFeedBinding
+import com.sarpertezel.kotlincountries.viewmodel.CountryViewModel
+import com.sarpertezel.kotlincountrylist.R
+import com.sarpertezel.kotlincountrylist.databinding.FragmentCountryBinding
 
 
 class CountryFragment : Fragment() {

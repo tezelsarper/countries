@@ -1,9 +1,9 @@
-package com.example.kotlincountries.service
+package com.sarpertezel.kotlincountries.service
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
-import com.example.kotlincountries.model.Country
+import com.sarpertezel.kotlincountries.model.Country
 
 @Dao
 interface CountryDao {

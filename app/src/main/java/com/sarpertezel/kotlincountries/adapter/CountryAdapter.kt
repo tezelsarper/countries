@@ -1,4 +1,4 @@
-package com.example.kotlincountries.adapter
+package com.sarpertezel.kotlincountries.adapter
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,12 +6,10 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.navigation.Navigation
 import androidx.recyclerview.widget.RecyclerView
-import com.example.kotlincountries.model.Country
-import com.example.kotlincountries.util.downloadFromUrl
-import com.example.kotlincountries.util.placeholderProgressBar
-import com.example.kotlincountries.view.FeedFragmentDirections
-import com.example.kotlincountrylist.R
-import com.example.kotlincountrylist.databinding.ItemCountryBinding
+import com.sarpertezel.kotlincountries.model.Country
+import com.sarpertezel.kotlincountries.view.FeedFragmentDirections
+import com.sarpertezel.kotlincountrylist.R
+import com.sarpertezel.kotlincountrylist.databinding.ItemCountryBinding
 
 class CountryAdapter(val countryList: ArrayList<Country>) : RecyclerView.Adapter<CountryAdapter.CountryViewHolder>(),CountryClickListener {
 

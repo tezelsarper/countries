@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.kotlincountrylist'
+    namespace 'com.sarpertezel.kotlincountrylist'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.example.kotlincountrylist"
+        applicationId "com.sarpertezel.kotlincountrylist"
         minSdk 24
         targetSdk 34
         versionCode 1

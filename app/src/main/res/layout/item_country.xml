@@ -6,11 +6,11 @@
     <data>
         <variable
             name="country"
-            type="com.example.kotlincountries.model.Country" />
+            type="com.sarpertezel.kotlincountries.model.Country" />
         
         <variable
             name="listener"
-            type="com.example.kotlincountries.adapter.CountryClickListener" />
+            type="com.sarpertezel.kotlincountries.adapter.CountryClickListener" />
 
     </data>
 

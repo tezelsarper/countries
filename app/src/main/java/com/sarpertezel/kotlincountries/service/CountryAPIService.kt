@@ -1,11 +1,10 @@
-package com.example.kotlincountries.service
+package com.sarpertezel.kotlincountries.service
 
-import com.example.kotlincountries.model.Country
+import com.sarpertezel.kotlincountries.model.Country
 import io.reactivex.Single
 import retrofit2.Retrofit
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import retrofit2.converter.gson.GsonConverterFactory
-import retrofit2.create
 
 class CountryAPIService {
 

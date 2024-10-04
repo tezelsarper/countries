@@ -1,4 +1,4 @@
-package com.example.kotlincountries.viewmodel
+package com.sarpertezel.kotlincountries.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel

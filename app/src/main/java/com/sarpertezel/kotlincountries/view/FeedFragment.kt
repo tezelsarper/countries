@@ -1,20 +1,16 @@
-package com.example.kotlincountries.view
+package com.sarpertezel.kotlincountries.view
 
-import android.opengl.Visibility
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import androidx.navigation.Navigation
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.kotlincountries.view.FeedFragmentDirections
-import com.example.kotlincountries.adapter.CountryAdapter
-import com.example.kotlincountries.viewmodel.FeedViewModel
-import com.example.kotlincountrylist.databinding.FragmentFeedBinding
+import com.sarpertezel.kotlincountries.adapter.CountryAdapter
+import com.sarpertezel.kotlincountries.viewmodel.FeedViewModel
+import com.sarpertezel.kotlincountrylist.databinding.FragmentFeedBinding
 
 
 class FeedFragment : Fragment() {

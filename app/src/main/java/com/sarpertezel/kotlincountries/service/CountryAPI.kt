@@ -1,6 +1,6 @@
-package com.example.kotlincountries.service
+package com.sarpertezel.kotlincountries.service
 
-import com.example.kotlincountries.model.Country
+import com.sarpertezel.kotlincountries.model.Country
 import io.reactivex.Single
 import retrofit2.http.GET
 

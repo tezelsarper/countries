@@ -1,13 +1,12 @@
-package com.example.kotlincountries.util
+package com.sarpertezel.kotlincountries.util
 
 import android.content.Context
-import android.provider.ContactsContract.CommonDataKinds.Im
 import android.widget.ImageView
 import androidx.databinding.BindingAdapter
 import androidx.swiperefreshlayout.widget.CircularProgressDrawable
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
-import com.example.kotlincountrylist.R
+import com.sarpertezel.kotlincountrylist.R
 
 fun ImageView.downloadFromUrl(url : String? , progressDrawable: CircularProgressDrawable)
 {

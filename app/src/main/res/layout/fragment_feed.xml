@@ -7,7 +7,7 @@
         android:id="@+id/swipeRefreshLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="com.example.kotlincountries.view.FeedFragment">
+        tools:context="com.sarpertezel.kotlincountries.view.FeedFragment">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"

@@ -1,10 +1,9 @@
-package com.example.kotlincountries.viewmodel
+package com.sarpertezel.kotlincountries.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.ViewModel
-import com.example.kotlincountries.model.Country
-import com.example.kotlincountries.service.CountryDatabase
+import com.sarpertezel.kotlincountries.model.Country
+import com.sarpertezel.kotlincountries.service.CountryDatabase
 import kotlinx.coroutines.launch
 
 class CountryViewModel(application: Application) : BaseViewModel(application) {

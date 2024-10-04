@@ -6,14 +6,14 @@
         
         <variable
             name="selectedCountry"
-            type="com.example.kotlincountries.model.Country" />
+            type="com.sarpertezel.kotlincountries.model.Country" />
         
     </data>
 
 <RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.kotlincountries.view.CountryFragment">
+    tools:context="com.sarpertezel.kotlincountries.view.CountryFragment">
 
 <ImageView
     android:id="@+id/countryImage"

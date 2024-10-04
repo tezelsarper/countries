@@ -1,4 +1,4 @@
-package com.example.kotlincountries.util
+package com.sarpertezel.kotlincountries.util
 
 import android.content.Context
 import android.content.SharedPreferences

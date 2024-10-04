@@ -1,10 +1,10 @@
-package com.example.kotlincountries.service
+package com.sarpertezel.kotlincountries.service
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.example.kotlincountries.model.Country
+import com.sarpertezel.kotlincountries.model.Country
 
 
 @Database(entities = arrayOf(Country::class),version = 1)

@@ -1,4 +1,4 @@
-package com.example.kotlincountries
+package com.sarpertezel.kotlincountries
 
 import org.junit.Test
 

@@ -14,7 +14,7 @@
         android:theme="@style/Theme.KotlinCountries"
         tools:targetApi="31" >
         <activity
-            android:name="com.example.kotlincountries.view.MainActivity"
+            android:name="com.sarpertezel.kotlincountries.view.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
